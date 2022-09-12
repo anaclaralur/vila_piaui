@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #menu{
+            width: 100vw;
+            height: 80px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        #menu img{
+            height: 100%;
+            margin-right: 215px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #menu div{
+            display: inline-block;
+            text-align: center;
+            width: 100px;
+            margin: 30px;
+
+        }
+        #corpo h1{
+            text-align: center;
+            margin: 33px;
+            font-size: 3vw;
+        }
+        #corpo img{
+            width: 100%;
+        }
+        #imgcapa{
+            width: 100%;
+            height: 550px;
+        }
+        #leg1{
+            width: 1130px;
+            height: 100px;
+            text-align: center;
+            margin: auto;
+            font-size: 28px;
+        }
+        #leg2, #leg3{
+            width: 538px;
+            position: absolute;
+            background-color: white;
+            opacity: 0.7;
+            font-size: 24px;
+        }
+        #img1, #img2{
+            position: relative;
+            width: 730px;
+            height: 440px;
+        }
+        #img2{
+            left: 620px;
+        }
+        #leg2{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+        #leg3{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+        #mapa{
+            width: 800px;
+            text-align: center;
+            margin: auto;
+            margin-top: 15px;
+            font-size: 24px;
+
+        }
+        #mapa p{
+            margin-bottom: 15px;
+        }
+        footer{
+            height: 200px;
+            background-color: black;
+            color: white;
+        }
+        footer p{
+            padding-top: 50px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="menu">
+        <img src="https://www.adobe.com/br/express/create/media_103874e36b58ebce3c8688870cbc0bfbcc5ed981f.jpeg?width=400&format=jpeg&optimize=medium" alt="exemplo de logo">
+        <div>Página Inicial</div>
+        <div>História</div>
+        <div>Imagens</div>
+        <div>Mapa</div>
+    </header>
+    <div id="corpo">
+        <h1>Conheça a Vila Piauí</h1>
+        <img src="https://s2.glbimg.com/KoEtfLbiC5gVw4N_8xLkC768h4A=/smart/e.glbimg.com/og/ed/f/original/2021/07/07/40514173233_d1188d451d_o.jpg" alt="exemplo de cidade" id="imgcapa">
+        <p id="leg1">Bairro do distrito Jaguara, a Vila Piauí possui uma localização estratégica na Zona Oeste de São Paulo, onde conta com uma diversidade de comércios, sua avenida principal e a rodovia Anhanguera aos seus redores</p>
+        <div id="img1"><img src="https://imagens.ebc.com.br/SZCl8_0_PfTlqAULZz6BgRFKAMk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/rj_comercio_aberto_0407201736.jpg?itok=mybSqGpJ" alt="exemplo de comércios"></div>
+        <p id="leg2">O bairro conta com uma diversidade de comércios, como supermercado, farmácia, loja de roupas, lanchonete, etc. Todos concentrados principalmente na Avenida Mutinga. </p>
+        <div id="img2"><img src="https://fotos-estradao.estadao.com.br/wp-content/uploads/2018/04/23125720/AutoBAn-3-%C2%AC-faixa-SP330-Jundia-%C2%A1-a-Louveira-II.jpeg" alt="exemplo da avenida anhanguera"></div>
+        <hr>
+        <p id="leg3">A Vila Piauí conta com a avenida Mutinga e fica ao lado da rodovia Anhanguera, o que facilita o transporte dos moradores e comerciantes do local.</p>
+        <div id="mapa">
+            <p>Veja abaixo um mapa com a localização da Vila Piauí</p>
+            <img src="vila jaguara.png" alt="mapa vila jaguara">
+        </div>
+    </div>
+    <footer>
+        <p>Para saber mais sobre a cidade de São Paulo, acesse: <a href="https://www.capital.sp.gov.br/" target="_blank" style="color: rgb(168, 168, 168);">www.capital.sp.gov.br</a></p>
+    </footer>
+</body>
+</html>
